@@ -1,0 +1,61 @@
+/**
+ * Fontes do projeto VITALIS
+ * Tudo relacionado a fontes fica em assets/fontes (este arquivo).
+ * Os @font-face estão em assets/css/css2_*.css; imports relativos a esta pasta.
+ */
+
+/* === Imports das folhas de fonte (@font-face) === */
+@import url("../css/css2_19fd9cc6b396.css"); /* Inter + Plus Jakarta Sans */
+@import url("../css/css2_86e10c4bcbd4.css"); /* Geist */
+@import url("../css/css2_0fc20595ebff.css"); /* Roboto */
+@import url("../css/css2_23afcbef9bdd.css"); /* Montserrat */
+@import url("../css/css2_82ced711bf49.css"); /* Poppins */
+@import url("../css/css2_fa22aa91016e.css"); /* Playfair Display */
+@import url("../css/css2_2b2d87bc82d8.css"); /* Instrument Serif */
+@import url("../css/css2_4fef849c83da.css"); /* Merriweather */
+@import url("../css/css2_a7b22b336fe1.css"); /* Bricolage Grotesque */
+@import url("../css/css2_0b2072b66163.css"); /* Plus Jakarta Sans (jakarta) */
+@import url("../css/css2_9b8bf743d4a8.css"); /* Manrope */
+@import url("../css/css2_8e191ef32247.css"); /* Space Grotesk */
+@import url("../css/css2_70fd47a02eed.css"); /* Work Sans */
+@import url("../css/css2_b52fc18295f8.css"); /* PT Serif */
+@import url("../css/css2_62759cd015bd.css"); /* Geist Mono */
+@import url("../css/css2_f495c2faa2a6.css"); /* Space Mono */
+@import url("../css/css2_6f16cdd6fd9f.css"); /* Quicksand */
+@import url("../css/css2_94cb6f0c406a.css"); /* Nunito */
+@import url("../css/css2_6c160a0c4e6f.css"); /* Newsreader */
+@import url("../css/css2_bd407d5ceb4b.css"); /* Google Sans Flex */
+@import url("../css/css2_176e25227b5e.css"); /* Oswald */
+@import url("../css/css2_e5ca562f8909.css"); /* DM Sans */
+
+/* === Tipografia base do site === */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* === Classes utilitárias por família (opcionais) === */
+.font-geist { font-family: 'Geist', sans-serif !important; }
+.font-roboto { font-family: 'Roboto', sans-serif !important; }
+.font-montserrat { font-family: 'Montserrat', sans-serif !important; }
+.font-poppins { font-family: 'Poppins', sans-serif !important; }
+.font-playfair { font-family: 'Playfair Display', serif !important; }
+.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }
+.font-merriweather { font-family: 'Merriweather', serif !important; }
+.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }
+.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }
+.font-manrope { font-family: 'Manrope', sans-serif !important; }
+.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }
+.font-work-sans { font-family: 'Work Sans', sans-serif !important; }
+.font-pt-serif { font-family: 'PT Serif', serif !important; }
+.font-geist-mono { font-family: 'Geist Mono', monospace !important; }
+.font-space-mono { font-family: 'Space Mono', monospace !important; }
+.font-quicksand { font-family: 'Quicksand', sans-serif !important; }
+.font-nunito { font-family: 'Nunito', sans-serif !important; }
+.font-newsreader { font-family: 'Newsreader', serif !important; }
+.font-google-sans-flex { font-family: 'Google Sans Flex', sans-serif !important; }
+.font-oswald { font-family: 'Oswald', sans-serif !important; }
+.font-dm-sans { font-family: 'DM Sans', sans-serif !important; }
